@@ -1,7 +1,7 @@
 import { Container, PersonalContainer, NewsContainer, PostContainer, MyContainer } from '@/styles/Style_MainPage'
 import { PostPreviewContainer, PostText, PostTitle } from "@/components/PostPriview.ts";
 
-const Mainpage = () => {
+const MainPage = () => {
 
 
     return (
@@ -28,4 +28,4 @@ const Mainpage = () => {
     )
 }
 
-export default Mainpage;
+export default MainPage;

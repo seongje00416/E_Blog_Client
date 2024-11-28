@@ -1,10 +1,11 @@
 import styled from 'styled-components'
+import { colors} from "@/styles/Style_Common";
 
 export const Container = styled.div`
     width: 100vw;
     display: flex;
     flex-direction: column;
-    background-color: #F9F7F7;
+    background-color: ${colors.mainColor_4};
 `
 
 export const NewsContainer = styled.div`
@@ -34,5 +35,5 @@ export const MyContainer = styled.div`
     border: solid 1px lightgray;
     border-radius: 3px;
     margin: 10px;
-    background-color: #DBE2EF;
+    background-color: ${colors.mainColor_3};
 `

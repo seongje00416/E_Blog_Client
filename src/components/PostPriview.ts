@@ -10,14 +10,14 @@ export const PostPreviewContainer = styled.div`
     padding-block: 5px;
 `
 
-export const PostTitle = styled.a`
+export const PostTitle = styled.p`
     font-weight: bold;
     text-align: center;
     color: black;
     margin: 5px;
 `
 
-export const PostText = styled.a`
+export const PostText = styled.p`
     font-size: 10px;
     color: black;
     margin: 5px;
