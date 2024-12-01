@@ -1,8 +1,9 @@
 import styled from 'styled-components'
-import { colors} from "@/styles/Style_Common";
+import { colors} from "@/styles/Style_Common.ts";
 
 export const Container = styled.div`
     width: 100vw;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     background-color: ${colors.mainColor_4};
@@ -10,6 +11,7 @@ export const Container = styled.div`
 
 export const NewsContainer = styled.div`
     width: 100%;
+    height: 30%;
     background-color: white;
 `
 
@@ -31,6 +33,7 @@ export const PostContainer = styled.div`
 
 export const MyContainer = styled.div`
     width: 100%;
+    height: 100%;
     flex: 1;
     border: solid 1px lightgray;
     border-radius: 3px;

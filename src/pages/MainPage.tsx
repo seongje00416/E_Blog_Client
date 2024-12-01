@@ -1,5 +1,5 @@
 import { Container, PersonalContainer, NewsContainer, PostContainer, MyContainer } from '@/styles/Style_MainPage'
-import { PostPreviewContainer, PostText, PostTitle } from "@/components/PostPriview.ts";
+import { PostPreviewContainer, PostText, PostTitle } from "@/styles/componenets/Style_PostPriview.ts";
 
 const MainPage = () => {
 
