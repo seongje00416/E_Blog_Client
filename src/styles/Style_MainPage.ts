@@ -112,29 +112,11 @@ export const ProfileSection = styled.div`
   text-align: center;
 `;
 
-export const ProfileImage = styled.img`
-  width: 120px;
-  height: 120px;
-  border-radius: 50%;
-  margin: 0 auto 15px;
-  border: 3px solid ${colors.mainColor_2};
-`;
-
 export const ProfileName = styled.h2`
   font-size: 18px;
   font-weight: bold;
   color: ${colors.mainColor_1};
   margin-bottom: 10px;
-`;
-
-export const ProfileStats = styled.div`
-  display: flex;
-  justify-content: space-around;
-  margin-top: 15px;
-`;
-
-export const StatItem = styled.div`
-  text-align: center;
 `;
 
 export const StatValue = styled.div`
