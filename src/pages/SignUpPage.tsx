@@ -58,7 +58,7 @@ const SignUpPage: React.FC = () => {
                     </InputGroup>
 
                     <InputGroup>
-                        <Label htmlFor="nickname">닉네임 *</Label>
+                        <Label htmlFor="nickname">닉네임</Label>
                         <Input
                             type="text"
                             id="nickname"
@@ -123,17 +123,6 @@ const SignUpPage: React.FC = () => {
                             />
                             <Label htmlFor="agreePrivacy">
                                 <AgreementText>개인정보 처리방침 동의 (필수)</AgreementText>
-                            </Label>
-                        </CheckboxGroup>
-
-                        <CheckboxGroup>
-                            <Checkbox
-                                type="checkbox"
-                                id="agreeMarketing"
-                                name="agreeMarketing"
-                            />
-                            <Label htmlFor="agreeMarketing">
-                                <AgreementText>마케팅 정보 수신 동의 (선택)</AgreementText>
                             </Label>
                         </CheckboxGroup>
                     </AgreementSection>
