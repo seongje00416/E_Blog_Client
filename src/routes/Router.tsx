@@ -4,6 +4,7 @@ import MyPage from '@/pages/MyPage.tsx'
 import PostPage from '@/pages/PostDetailPage'
 import RegisterPostPage from '@/pages/RegisterPostPage'
 import FriendsListPage from '@/pages/FriendsListPage'
+import LoginPage from '@/pages/LoginPage'
 
 const Router = () => {
     return (
@@ -14,6 +15,7 @@ const Router = () => {
                 <Route path="/myPage/:id" element={<MyPage /> } />
                 <Route path="/post/register" element={<RegisterPostPage />} />
                 <Route path="/friends/:id" element={<FriendsListPage /> } />
+                <Route path="/login" element={<LoginPage /> } />
             </Routes>
         </BrowserRouter>
     )
