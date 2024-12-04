@@ -3,6 +3,7 @@ import MainPage from '@/pages/MainPage.tsx'
 import MyPage from '@/pages/MyPage.tsx'
 import PostPage from '@/pages/PostDetailPage'
 import RegisterPostPage from '@/pages/RegisterPostPage'
+import FriendsListPage from '@/pages/FriendsListPage'
 
 const Router = () => {
     return (
@@ -12,6 +13,7 @@ const Router = () => {
                 <Route path="/post/:id" element={<PostPage />} />
                 <Route path="/myPage/:id" element={<MyPage /> } />
                 <Route path="/post/register" element={<RegisterPostPage />} />
+                <Route path="/friends/:id" element={<FriendsListPage /> } />
             </Routes>
         </BrowserRouter>
     )
