@@ -82,8 +82,8 @@ const MainPage: React.FC = () => {
                 </ContentArea>
 
                 <RightSidebar>
-                    <RecommendationHeader>추천 친구</RecommendationHeader>
-                    추천 친구 목록
+                    <RecommendationHeader> 친구 목록 </RecommendationHeader>
+                    친구 목록
                 </RightSidebar>
             </MainContainer>
         </PageWrapper>

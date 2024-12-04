@@ -1,4 +1,5 @@
 import React from 'react';
+import { useNavigate } from "react-router-dom";
 import {
     LoginContainer,
     LoginBox,
@@ -16,12 +17,12 @@ import {
 } from '@/styles/Style_LoginPage';
 
 const LoginPage: React.FC = () => {
+    const navigate = useNavigate()
 
     return (
         <LoginContainer>
             <LoginBox>
                 <Logo> E-Blog </Logo>
-
                 <Form>
                     <InputGroup>
                         <Label htmlFor="email">이메일</Label>
@@ -63,6 +64,7 @@ const LoginPage: React.FC = () => {
                 <SocialLoginButton
                     bgColor="#F9F7F7"
                     fontColor="black"
+                    onClick = { () => navigate('/signUp')}
                 >
                     이메일로 회원가입
                 </SocialLoginButton>
