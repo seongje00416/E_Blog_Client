@@ -3,15 +3,16 @@ import { colors } from './Style_Common';
 
 export const Container = styled.div`
   width: 100vw;
+  height: 100%;
   display: flex;
   justify-content: center;
-  margin: 0 auto;
-  padding: 15px;
+  align-items: center;
   background-color: ${colors.mainColor_4};
 `;
 
 export const PageWrapper = styled.div`
     width: 80%;
+    height: 80%;
     background-color: ${colors.mainColor_3};
     padding: 24px;
 `
@@ -27,12 +28,13 @@ export const Title = styled.h1`
 `;
 
 export const SearchContainer = styled.div`
-  position: relative;
   margin-bottom: 24px;
+  display: flex;
+  justify-content: center;
 `;
 
 export const SearchInput = styled.input`
-  width: 100%;
+  width: 98%;
   padding: 12px 16px;
   border-radius: 8px;
   border: 1px solid ${colors.mainColor_3};

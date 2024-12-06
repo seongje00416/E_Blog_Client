@@ -5,7 +5,7 @@ export const PageWrapper = styled.div`
   width: 100vw;
   min-height: 100vh;
   background-color: ${colors.mainColor_4};
-  padding: 20px;
+  padding-block: 20px;
 `;
 
 export const MainContainer = styled.div`
@@ -26,7 +26,7 @@ export const LeftSidebar = styled.div`
 
 export const ContentArea = styled.div`
   flex: 1;
-  min-width: 0; // flex item이 너무 커지는 것을 방지
+  min-width:
 `;
 
 export const RightSidebar = styled.div`

@@ -1,11 +1,13 @@
-import { MenuBarContainer } from "@/styles/componenets/Style_MenuBar"
+import React from 'react';
+import { MenuNavBar, LogoDiv } from '@/styles/componenets/Style_MenuBar';
 
-const MenuBar = () => {
+const MenuBar: React.FC = () => {
+
     return (
-        <MenuBarContainer>
-
-        </MenuBarContainer>
-    )
-}
+        <MenuNavBar>
+            <LogoDiv> E-Blog </LogoDiv>
+        </MenuNavBar>
+    );
+};
 
 export default MenuBar;

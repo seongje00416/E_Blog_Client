@@ -10,7 +10,7 @@ const BottomBar: React.FC = () => {
             <ItemButton onClick={ () => navigate('/')}> 소셜 </ItemButton>
             <ItemButton onClick={ () => navigate('/friends/{:id}')}> 추천 </ItemButton>
             <ItemButton onClick={ () => navigate('/')}> 홈 </ItemButton>
-            <ItemButton onClick={ () => navigate('/')}> 메세지 </ItemButton>
+            <ItemButton onClick={ () => navigate('/chatlist/{:id}')}> 메세지 </ItemButton>
             <ItemButton onClick={ () => navigate('/mypage/{:id}')}> 프로필 </ItemButton>
         </BottomNavBar>
     );

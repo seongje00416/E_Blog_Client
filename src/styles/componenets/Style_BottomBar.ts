@@ -5,14 +5,11 @@ export const BottomNavBar = styled.nav`
     position: fixed;
     bottom: 0;
     left: 0;
-    width: 100%;
+    width: 100vw;
     height: 50px;
     background-color: ${colors.mainColor_4};
     border-top: 1px solid ${colors.mainColor_3};
     display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 0 20px;
     z-index: 1000;
 `;
 
