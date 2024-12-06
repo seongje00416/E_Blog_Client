@@ -1,4 +1,6 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import Layout from '@/components/Layout'
+
 import MainPage from '@/pages/MainPage.tsx'
 import MyPage from '@/pages/MyPage.tsx'
 import PostPage from '@/pages/PostDetailPage'
@@ -10,15 +12,17 @@ import SignUpPage from '@/pages/SignUpPage'
 const Router = () => {
     return (
         <BrowserRouter>
-            <Routes>
-                <Route path="/" element={<MainPage />} />
-                <Route path="/post/:id" element={<PostPage />} />
-                <Route path="/myPage/:id" element={<MyPage /> } />
-                <Route path="/post/register" element={<RegisterPostPage />} />
-                <Route path="/friends/:id" element={<FriendsListPage /> } />
-                <Route path="/login" element={<LoginPage /> } />
-                <Route path="/signUp" element={<SignUpPage /> } />
-            </Routes>
+            <Layout>
+                <Routes>
+                    <Route path="/" element={<MainPage />} />
+                    <Route path="/post/:id" element={<PostPage />} />
+                    <Route path="/myPage/:id" element={<MyPage /> } />
+                    <Route path="/post/register" element={<RegisterPostPage />} />
+                    <Route path="/friends/:id" element={<FriendsListPage /> } />
+                    <Route path="/login" element={<LoginPage /> } />
+                    <Route path="/signup" element={<SignUpPage /> } />
+                </Routes>
+            </Layout>
         </BrowserRouter>
     )
 }
