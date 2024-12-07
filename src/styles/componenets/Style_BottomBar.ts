@@ -13,8 +13,12 @@ export const BottomNavBar = styled.nav`
     z-index: 1000;
 `;
 
+export const ItemIcon = styled.img`
+    width: 35px;
+`
+
 export const ItemButton = styled.div`
-    background-color: ${colors.mainColor_1};
+    background-color: ${colors.mainColor_2};
     color: white;
     width: 100%;
     height: 100%;
